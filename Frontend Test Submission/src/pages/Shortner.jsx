@@ -22,7 +22,6 @@ import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import RestartAltIcon from "@mui/icons-material/RestartAlt";
 
-// Adjust this if your API lives somewhere else
 const API_BASE = import.meta?.env?.VITE_API_BASE || "http://localhost:5000";
 
 function isValidHttpUrl(str) {
