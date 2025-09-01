@@ -50,7 +50,7 @@ router.post("/", (req, res) => {
 
         res.json({
           shortLink: `http://localhost:5000/${uniqueCode}`,
-          expiry: expiresAt.toISOString,
+          expiry: expiresAt.toISOString(),
         });
       }
     );
